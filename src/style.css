@@ -1,0 +1,8 @@
+.body-div {
+  display: flex;
+  gap: 60px;
+}
+
+ul {
+  list-style: none;
+}
