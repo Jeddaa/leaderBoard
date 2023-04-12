@@ -20,9 +20,5 @@ ul {
 
 .submit-btn {
   width: 5em;
-  /* justify-content: flex-end; */
-  /* align-items: flex-end; */
-  /* float: left; */
-  /* float: right; */
   position: relative;
 }
