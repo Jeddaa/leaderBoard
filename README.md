@@ -79,6 +79,8 @@ This is Leaderboard project where you can add scores and view them.
 ### Key Features <a name="key-features"></a>
 
 - **[clean ui]**
+- **[add Score]**
+- **[Display score]**
 <!-- - **[good design]** -->
 - **[good graphics]**
 
@@ -161,7 +163,7 @@ You can deploy this project by just pushing it and github pages will do the rest
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Alvee**
+👤 **Jedda**
 
 - GitHub: [Jeddaa](https://github.com/jeddaa)
 - Twitter: [@\_jeddaah](https://twitter.com/_jeddaah)

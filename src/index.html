@@ -11,23 +11,15 @@
     <div class="body-div">
       <div>
         <h4>Recent scores</h4>
-        <button>Refresh</button>
-        <ul>
-          <li>Name: 100</li>
-          <li>Name: 20</li>
-          <li>Name: 50</li>
-          <li>Name: 78</li>
-          <li>Name: 125</li>
-          <li>Name: 77</li>
-          <li>Name: 42</li>
-        </ul>
+        <button class="refresh-btn">Refresh</button>
+        <ul class="list-ul"></ul>
       </div>
-      <div>
+      <form class="submit-form">
         <h4>Add your score</h4>
-        <input type="text" value="Your name" />
-        <input type="text" value="Your score" />
-        <button>Submit</button>
-      </div>
+        <input name="name" class="username" type="text" placeholder="Your name" required />
+        <input name="score" class="userscore" type="text" placeholder="Your score" required />
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
     </div>
   </body>
 </html>
