@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 
-const gameId = localStorage.getItem('gameId');
+const jeddaGameId = 'h3JR6fD5buUEu3ZSaXws';
+
 export default () => {
   const submitBtn = document.querySelector('.submit-form');
 
@@ -10,7 +11,7 @@ export default () => {
     const username = document.querySelector('.username').value;
     const userscore = document.querySelector('.userscore').value;
     try {
-      await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`, {
+      await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${jeddaGameId}/scores/`, {
         method: 'POST',
         body: JSON.stringify({
           user: username,

@@ -1,4 +1,6 @@
 export default () => {
-  const gameId = 'V0cpkV3hkx9r4XWa2c0x';
-  localStorage.setItem('gameId', gameId);
+  // localStorage.removeItem('jeddaGameId');
+  const jeddaGameId = 'h3JR6fD5buUEu3ZSaXws';
+  localStorage.setItem('jeddaGameId', jeddaGameId);
+  // localStorage.removeItem('jeddaGameId');
 };

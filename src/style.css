@@ -6,3 +6,23 @@
 ul {
   list-style: none;
 }
+
+.username,
+.userscore {
+  border: 1px solid #000;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.submit-btn {
+  width: 5em;
+  /* justify-content: flex-end; */
+  /* align-items: flex-end; */
+  /* float: left; */
+  /* float: right; */
+  position: relative;
+}

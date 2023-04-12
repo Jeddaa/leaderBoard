@@ -2,11 +2,12 @@
 /* eslint-disable no-console */
 
 export default () => {
-  const gameId = localStorage.getItem('gameId');
+  const jeddaGameId = 'h3JR6fD5buUEu3ZSaXws';
+
   const list = document.querySelector('.list-ul');
   const allScores = async () => {
     try {
-      const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`);
+      const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${jeddaGameId}/scores/`);
 
       const newData = await response.json();
 
