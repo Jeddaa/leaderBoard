@@ -5,6 +5,7 @@ export default () => {
   const jeddaGameId = 'h3JR6fD5buUEu3ZSaXws';
 
   const list = document.querySelector('.list-ul');
+  list.style.display = 'flex';
   const allScores = async () => {
     try {
       const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${jeddaGameId}/scores/`);
