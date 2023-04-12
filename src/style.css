@@ -5,10 +5,6 @@
   font-size: 18px;
 }
 
-ul {
-  list-style: none;
-}
-
 h1 {
   padding-left: 0.3em;
 }
@@ -20,6 +16,7 @@ h4 {
 .username,
 .userscore {
   border: 2px solid #000;
+  height: 1.5em;
 }
 
 .submit-form {
@@ -31,6 +28,9 @@ h4 {
 .submit-btn {
   width: 5em;
   position: relative;
+  border: 2px solid #000;
+  padding: 0.2em;
+  margin-left: 10em;
 }
 
 .recent {
@@ -40,16 +40,18 @@ h4 {
 }
 
 .refresh-btn {
-  height: fit-content;
+  width: 5em;
   border: 2px solid #000;
+  padding: 0.2em;
 }
 
 .list-ul {
   padding: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 0.4em;
   border: 2px solid #000;
+  list-style: none;
 }
 
 .list-item {
